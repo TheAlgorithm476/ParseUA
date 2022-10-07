@@ -37,6 +37,8 @@ public class ParseUA {
         String browserVersion = "Unknown";
         boolean mobile = false; // Most platforms are not mobile by default, so this is a good default value, in case parsing fails.
 
+        if (userAgentString == null) return new UserAgent(browser, operatingSystem, browserVersion, mobile); // Just return if null
+
         // ---- Operating System ----
         if (userAgentString.contains("Windows")) operatingSystem = "Windows";
         if (userAgentString.contains("Macintosh")) operatingSystem = "macOS";
