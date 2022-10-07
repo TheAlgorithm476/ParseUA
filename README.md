@@ -29,7 +29,7 @@ ParseUA is capable of parsing all Major Browsers, including:
 - Microsoft Edge
 - Internet Explorer
 
-Other browsers may be able to be parsed, but may not return the correct data. **Chromium-based browsers not listed are known to return Chrome as its UA**.
+Other browsers may be able to be parsed, but may not return the correct data. **Chromium-based browsers not listed are known to return Chrome as their UA**.
 
 ## Building
 Building is simple. Running `./gradlew build` will build the project, and give you a Source JAR as well.  
@@ -39,4 +39,4 @@ In case you want a pre-built JAR, you can find all releases on the [OctanDevelop
 ParseUA is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ## Contributing
-Pull requests are very welcome. For major changes, please open an issue first to discuss what you would to see changed. Feel free to fork this repo and tinker around. All help is appreciated.
+Pull requests are very welcome. For major changes, please open an issue first to discuss what you would like to see changed. Feel free to fork this repo and tinker around. All help is appreciated.
